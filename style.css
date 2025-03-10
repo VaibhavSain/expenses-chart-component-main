@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    background-color: #f7e9dc;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.balance {
+    height: 100px;
+    border-radius: 12px;
+    width: 400px;
+    position: absolute;
+    top: 8rem;
+    background-color:#ec755d;
+}
+.balance img {
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+}
+.balance p {
+    font-size: 16px;
+    position: absolute;
+    top: 1.6rem;
+    left: 2rem;
+    color: white;
+}
+.balance span {
+    font-size: 24px;
+    position:absolute;
+    bottom: 1.2rem;
+    left: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.spending {
+    height: 26rem;
+    border-radius: 12px;
+    width: 400px;
+    position: absolute;
+    background-color:#fffcf7;
+    top: 15.5rem;
+}
+.spending .sptext {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+.mon {
+    position: absolute;
+    height: 2.2rem;
+    top: 14rem;
+    left: 2rem;
+    width: 1.7rem;
+    border-radius: 4px;
+    background-color:#ec755d;
+}
+.tue {
+    position: absolute;
+    height: 4rem;
+    top: 12.2rem;
+    left: 5.2rem;
+    width: 1.7rem;
+    border-radius: 4px;
+    background-color:#ec755d;
+}
+.wed {
+    position: absolute;
+    height: 7rem;
+    top: 9.2rem;
+    left: 8.4rem;
+    width: 1.7rem;
+    border-radius: 4px;
+    background-color:#76b5bc;
+}
+.wed:hover {
+    background-color: #b4dfe5;
+    cursor: pointer;
+}
+.day1:hover {
+    background-color: #ff9b87;
+    cursor: pointer;
+}
+.thu {
+    position: absolute;
+    height: 3.8rem;
+    top: 12.4rem;
+    right: 11.4rem;
+    width: 1.7rem;
+    border-radius: 4px;
+    background-color: #ec755d;
+}
+.fri {
+    position: absolute;
+    height: 2.6rem;
+    top: 13.6rem;
+    right:8.2rem;
+    width: 1.7rem;
+    border-radius: 4px;
+    background-color: #ec755d;
+}
+.sat {
+    position: absolute;
+    height: 5rem;
+    top: 11.2rem;
+    right: 5rem;
+    width: 1.7rem;
+    border-radius: 4px;
+    background-color: #ec755d;
+}
+.sun {
+    position: absolute;
+    height: 2.9rem;
+    top: 13.3rem;
+    right: 1.8rem;
+    width: 1.7rem;
+    border-radius: 4px;
+    background-color: #ec755d;
+}
+.days {
+    font-weight: 300;
+    color: rgba(0,0,0,0.8);
+}
+.mon1 {
+    position: absolute;
+    top: 16.2rem;
+    left: 1.8rem;
+}
+.tue1 {
+    position: absolute;
+    top: 16.2rem;
+    left: 5.3rem;
+}
+.wed1 {
+    position: absolute;
+    top: 16.2rem;
+    left: 8.3rem;
+}
+.thu1 {
+    position: absolute;
+    top: 16.2rem;
+    left: 12rem;
+}
+.fri1 {
+    position: absolute;
+    top: 16.2rem;
+    right: 8.5rem;
+}
+.sat1 {
+    position: absolute;
+    top: 16.2rem;
+    right:5.2rem;
+}
+.sun1 {
+    position: absolute;
+    top: 16.2rem;
+    right: 1.8rem;
+}
+.hori {
+    position: absolute;
+    top: 19rem;
+    margin-left: 34px;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.3);
+}
+.total {
+    position: absolute;
+    top: 20.2rem;
+    color: rgba(0, 0,0, 0.4);
+    left: 2rem;
+    font-size: 14px;
+}
+.price {
+    position: absolute;
+    top: 22rem;
+    left:2rem;
+    font-weight: bold;
+    font-size: 36px;
+}
+.int {
+    position: absolute;
+    top: 22rem;
+    right: 2rem;
+}
+.last {
+    position: absolute;
+    top: 23.6rem;
+    color: rgba(0, 0,0, 0.4);
+    font-size: 14px;
+    right: 2rem;
+}
+.rate1{
+    background-color: #362415;
+    height: 1.8rem;
+    width: 2.8rem;
+    border-radius: 4px;
+    position: absolute;
+    top: 11.5rem;
+    left: 1.5rem;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    display: none;
+}
+.rate2{
+    background-color: #362415;
+    height: 1.8rem;
+    width: 2.8rem;
+    border-radius: 4px;
+    position: absolute;
+    top: 10rem;
+    left: 4.5rem;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    display: none;
+}
+.rate3{
+    background-color: #362415;
+    height: 1.8rem;
+    width: 2.8rem;
+    border-radius: 4px;
+    position: absolute;
+    top: 7rem;
+    left: 7.8rem;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    display: none;
+}
+.rate4{
+    background-color: #362415;
+    height: 1.8rem;
+    width: 2.8rem;
+    border-radius: 4px;
+    position: absolute;
+    top: 10rem;
+    left: 11.4rem;
+    color: white;
+    font-weight: bold;
+    display: none;
+    padding: 2px;
+}
+.rate5{
+    background-color: #362415;
+    height: 1.8rem;
+    width: 2.8rem;
+    border-radius: 4px;
+    position: absolute;
+    top: 11.5rem;
+    right: 7.6rem;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    display: none;
+}
+
+.rate6{
+    background-color: #362415;
+    height: 1.8rem;
+    width: 2.8rem;
+    border-radius: 4px;
+    position: absolute;
+    top: 9rem;
+    right: 4.5rem;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    display: none;
+}
+.rate7{
+    background-color: #362415;
+    height: 1.8rem;
+    width: 2.8rem;
+    border-radius: 4px;
+    position: absolute;
+    top: 11rem;
+    right: 1.4rem;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    display: none;
+}
+
+
+
+
